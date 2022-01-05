@@ -24,7 +24,7 @@ game.Players:Chat([[:h
 
 Special Commands         
 								    
-:firework, !msg, !hint, btools, smoke, what, shut, reload, refresh, put, deltarune, carpet, nok me,			Made by T3chn0#
+:firework, !msg, !hint, btools, smoke, what, shut, reload, refresh, put, deltarune, carpet, nok me, boss me, boss all,			Made by T3chn0#
   0      2       5      3 		Feel free to give feedback on disco cords						    
 
 ]])
