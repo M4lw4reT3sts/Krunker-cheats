@@ -19,7 +19,7 @@ end
 
 wait(.1)
 wait(.9)
-plrs:Chat("-smd auto admin all enabled")
+plrs:Chat("h \n \n \n Server Message: auto admin all enabled \n \n \n ")
 plrs:Chat(" hi guys.")
 plrs.PlayerAdded:Connect(function(plyr)
     repeat wait()
