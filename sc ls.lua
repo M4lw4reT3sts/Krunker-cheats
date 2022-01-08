@@ -1,4 +1,4 @@
---Open all doors skidded from Vynixius
+--Open all doors skidded from Vynixiusa
 
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
