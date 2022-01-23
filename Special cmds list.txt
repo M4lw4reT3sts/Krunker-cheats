@@ -27,6 +27,6 @@ Special Commands
 :firework, !msg, !hint, btools, boombox, smoke, what, shut, reload, refresh, put, deltarune, carpet,
 boss self, boss all, paint fix, night,
 Made by T3chn0#
-  0      2       5      3 		Feel free to give feedback on disco cords						    
+  0      2       5      3 		Feel free to give feedback on discordant						    
 
 ]])
