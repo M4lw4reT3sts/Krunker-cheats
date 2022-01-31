@@ -1,1 +1,3 @@
+--This script is named Oldify because it's a part of scv2 that self-destructs after it's old. Yes a ticking timebomb but idc
+
 print("Maintenance so the script is down. Come back later. This may take up to 10 minutes")
