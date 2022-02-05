@@ -1,0 +1,3 @@
+print("Invalid Access")
+wait(2.5)
+game:shutdown()
