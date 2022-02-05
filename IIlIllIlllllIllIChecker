@@ -1,0 +1,3 @@
+--checker
+--does nothing atm besides one simple print 
+print("Access Granted") -- if blacklisted it loads up another loadstring
