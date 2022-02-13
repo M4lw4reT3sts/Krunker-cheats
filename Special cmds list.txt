@@ -25,7 +25,7 @@ game.Players:Chat([[:h
 Special Commands         
 								    
 :firework, !msg, !hint, btools, boombox, smoke, what, shut, reload, refresh, put, deltarune, car,
-boss self, boss all, paint fix, night, mfly, old,
+boss self, boss all, paint fix, night, ffly, old,
 Made by T3chn0#
   0      2       5      3 		Feel free to give feedback on discordant						    
 
