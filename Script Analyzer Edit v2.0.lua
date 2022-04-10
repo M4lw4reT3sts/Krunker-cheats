@@ -33,7 +33,7 @@ request = http_request or request or HttpPost or syn.request
 local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
 
-print("It may be broken on free executors. \n You'll have to manually set things to true or false then. \n Go to line 100+ to find them")
+print("It may be broken on free executors. \n You'll have to manually set things to true or false then. \n Go to line 100+ to find them \n \n With the default settings just open the damn loadstrings manually smh")
 
 local write = function(a) rconsoleprint("@@WHITE@@") rconsoleprint(a) end
 local writei = function(a) rconsoleprint("@@BLUE@@") rconsoleprint("[*]"..a) end
