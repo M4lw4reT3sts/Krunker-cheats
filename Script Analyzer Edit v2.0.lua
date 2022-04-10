@@ -104,7 +104,7 @@ local analyzers = {
     GTSpy = false,
     SynSpy = false,
     DisableHttpReq = true,
-    DisableWebhookReq = true
+    DisableWebhookReq = false
 }
 
 addcmd({"commands", "cmds"}, function(args)
@@ -264,5 +264,5 @@ end)
 
 -- Initialize
 
-writei("Thank you for using Script Anal yzer. Type commands/cmds to begin.\n")
+writei("Thank you for using Script Anal yzer. Type commands/cmds to begin.\n Type it in this console window and not in the chat smh")
 handlerequest("")
