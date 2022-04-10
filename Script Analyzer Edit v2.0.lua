@@ -1,5 +1,5 @@
--- Script Analyzer [OPEN SOURCE]
--- Made by CDXX/CEO of Africa#0591
+-- Script Analyzer supports free executors as well. Only it could have bugs.
+-- Original script      [loadstring(game:HttpGet("https://raw.githubusercontent.com/debug420/rbx-script-analyzer/main/Script-Analyzer.lua"))()]             [loadstring(game:HttpGet("https://raw.githubusercontent.com/NotDSF/HttpSpy/main/init.lua"))({;WebsocketSpy = false -- Be careful if you decide to use this, it is disabled by default for a reason and can be detected easily! });]
 
 local webhookcheck =
    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X/Fluxus" or
