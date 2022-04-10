@@ -97,14 +97,15 @@ end
 -- Add Commands
 
 local analyzers = {
+   -- Change any of this manually if you're willing to
     Http = true,
     Remotes = true,
     Namecalls = false,
-    Indexes = false,
-    GTSpy = false,
+    Indexes = true,
+    GTSpy = true,
     SynSpy = false,
     DisableHttpReq = true,
-    DisableWebhookReq = false
+    DisableWebhookReq = true
 }
 
 addcmd({"commands", "cmds"}, function(args)
