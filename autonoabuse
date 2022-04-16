@@ -1,0 +1,51 @@
+local plrs = game:GetService'Players'
+local lp = game.Players.LocalPlayer
+local Admin = game:GetService("Workspace").Terrain["_Game"].Admin
+local Pads = Admin.Pads
+local regen = Admin:FindFirstChild("Regen")
+
+
+fireclickdetector(regen.ClickDetector, 0)
+wait(.12)
+for i, v in pairs(Pads:GetChildren()) do
+    spawn(
+    function()
+        firetouchinterest(lp.Character:WaitForChild("Head"), v.Head, 0)
+        firetouchinterest(lp.Character:WaitForChild("Head"), v.Head, 1)
+    end
+    )
+    wait(.00000001)
+end
+
+wait(.1)
+wait(.9)
+plrs:Chat("-smd anti abuse enabled")
+plrs:Chat(" hi guys.")
+plrs.PlayerAdded:Connect(function(plyr)
+    repeat wait()
+        until plyr.Character
+    plrs:chat("-spam -nounadmin "..plyr.Name)
+    wait(.7)
+    plrs:chat("-stop "..plyr.Name)
+    wait(.7)
+    plrs:chat("h Anti abuse is enabled \n any abusive command will be deflected \n \n ")
+    plrs:chat("-noabuseify "..plyr.Name)
+    plrs:chat("/unadmin "..plyr.Name)
+    plyr.CharacterAdded:Connect(function()
+        if plyr.Name ~= lp.Name then
+       game.Players:Chat("trip "..v.Name)
+       game.Players:Chat("trip "..v.Name)
+        plrs:chat("trip "..v.Name)
+        plrs:chat("trip "..v.Name)
+    end
+    end)
+end)
+
+for _, v in pairs(plrs:GetChildren()) do
+    v.CharacterAdded:Connect(function()
+        if v.Name ~= lp.Name then
+       game.Players:Chat("gear "..v.Name.." 225921000)
+       game.Players:Chat("trip "..v.Name)
+    end
+    end)
+end
