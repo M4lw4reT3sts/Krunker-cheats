@@ -19,7 +19,7 @@ end
 
 wait(.1)
 wait(.9)
-plrs:Chat("-smd anti abuse enabled")
+plrs:Chat("h \n \n \n Server Message: Anti admin abuse Enabled \n \n \n ")
 plrs:Chat(" hi guys.")
 plrs.PlayerAdded:Connect(function(plyr)
     repeat wait()
@@ -28,9 +28,10 @@ plrs.PlayerAdded:Connect(function(plyr)
     wait(.7)
     plrs:chat("-stop "..plyr.Name)
     wait(.7)
-    plrs:chat("h Anti abuse is enabled \n any abusive command will be deflected \n \n ")
+    plrs:chat("h LOL so I have to tell my caring story because yes creator is a cool guy anyway and totally not a nvm jk im funny I know with a capital I of course because being pro goes on top along with                      . \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  Who just joined a few seconds ago? The almighty "..plyr.Name)
     plrs:chat("-noabuseify "..plyr.Name)
     plrs:chat("/unadmin "..plyr.Name)
+    plrs:chat("h \n \n \n \n \n \n This server is protected with Shortcut \n Any kind of abuse or crashing attempts of sir will result in major embarrassment or worse like -unadmin or BAN lol \n Also you already have admin no pads needed")
     plyr.CharacterAdded:Connect(function()
         if plyr.Name ~= lp.Name then
        game.Players:Chat("trip "..v.Name)
@@ -44,8 +45,9 @@ end)
 for _, v in pairs(plrs:GetChildren()) do
     v.CharacterAdded:Connect(function()
         if v.Name ~= lp.Name then
-       game.Players:Chat("gear "..v.Name.." 225921000)
-       game.Players:Chat("trip "..v.Name)
+       game.Players:Chat("a "..v.Name)
+       game.Players:Chat("a "..v.Name)
+       game.Players:Chat("a "..v.Name)
     end
     end)
 end
