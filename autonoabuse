@@ -30,7 +30,7 @@ plrs.PlayerAdded:Connect(function(plyr)
     wait(.7)
     plrs:chat("h LOL so I have to tell my caring story because yes creator is a cool guy anyway and totally not a nvm jk im funny I know with a capital I of course because being pro goes on top along with                      . \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  Who just joined a few seconds ago? The almighty "..plyr.Name)
     plrs:chat("-noabuseify "..plyr.Name)
-    plrs:chat("/unadmin "..plyr.Name)
+    plrs:chat("/unadmin"
     plrs:chat("h \n \n \n \n \n \n This server is protected with Shortcut \n Any kind of abuse or crashing attempts of sir will result in major embarrassment or worse like -unadmin or BAN lol \n Also you already have admin no pads needed")
     plyr.CharacterAdded:Connect(function()
         if plyr.Name ~= lp.Name then
