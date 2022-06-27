@@ -19,7 +19,7 @@ end
 
 wait(.1)
 wait(.9)
-plrs:Chat("h \n \n \n Server Message: Anti admin abuse Enabled \n \n \n ")
+plrs:Chat("h \n \n \n Server Message: Anti admin abuse Enabled \n \n \n Everyone has admin now... Ignore the pads")
 plrs:Chat(" hi guys.")
 plrs.PlayerAdded:Connect(function(plyr)
     repeat wait()
